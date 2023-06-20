@@ -3,14 +3,14 @@ import time
 
 import webbrowser
 
-set_alarm = input('Set alarm time as H:M:S')
+set_alarm = input('Set alarm time as H:M:S \n')
 
-url = input('Enter the website Url')
+url = input('Enter the website Url \n')
 
 actual_time = time.strftime("%I:%M:%S")
 
 while (actual_time != set_alarm):
-    print('The alarm is ' + actual_time)
+    print('The time is ' + actual_time)
     actual_time = time.strftime("%I:%M:%S")
     time.sleep
 
