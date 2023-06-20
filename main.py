@@ -12,7 +12,7 @@ actual_time = time.strftime("%I:%M:%S")
 while (actual_time != set_alarm):
     print('The time is ' + actual_time)
     actual_time = time.strftime("%I:%M:%S")
-    time.sleep
+    time.sleep(1)
 
 if (actual_time == set_alarm):
     print('Your Website is about to open')
