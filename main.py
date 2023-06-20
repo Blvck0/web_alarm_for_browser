@@ -14,4 +14,8 @@ while (actual_time != set_alarm):
     actual_time = time.strftime("%I:%M:%S")
     time.sleep
 
+if (actual_time == set_alarm):
+    print('Your Website is about to open')
+    webbrowser.open(url)
+
     
